@@ -1,6 +1,6 @@
 # Telco Customer Churn Prediction App 📲
 
-Welcome to the **Sales Prediction App Project** for embedding a timeseries model to streamlit. The mission is to develop an app for predicting store sales using a previously trained Machine Learning model.
+Welcome to the **Customer Churn Prediction App Project** for embedding machine learning model to streamlit. The mission is to develop an app for predicting Customer churn rate using a previously trained Machine Learning model.
 
 ![Python Version](https://img.shields.io/badge/Python-3.11-blue)
 ![Data Analysis](https://img.shields.io/badge/Data-Analysis-yellow)
@@ -91,15 +91,16 @@ The app will be launched in your default web browser and can then be used to mak
 
 ## Usage Instructions 📋
 
-- Input Fields: The app displays input fields for the Gender, Seniorcitizen, Partner, Dependent, Tenure, Phoneservice, MultipleLines, InternetService, Onlinesecurity, onlinebackup, DeviceProtection, Monthlycharges, Totalcharges, Contracttype, Paperlessbilling, PaymentMethod, TechSupport, DeviceProtection, StreamingTV and StreamingMovies 
+- Input Fields: The app displays input fields for the Gender, Seniorcitizen, Partner, Dependent, Tenure, Phoneservice, MultipleLines, InternetService, Onlinesecurity, onlinebackup, DeviceProtection, Monthlycharges, Totalcharges, Contracttype, Paperlessbilling, PaymentMethod, TechSupport, DeviceProtection, StreamingTV and StreamingMovies.
+  
 - Results: The app will display the predicted Churn rate for the specified inputs.
 
 ## Author 👨‍💼
 
-| Name                                            | LinkedIn                                                                                                                                                                                               | Medium Article |
+  | Name                                            | LinkedIn                                                                                                                                                                                                                                               | Medium Article |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | Aminu Oluwarotimi Desmond | [Aminu Oluwarotimi Desmond](https://www.linkedin.com/in/aminudesmond/) |[BUILDING A USER-FRIENDLY CHURN PREDICTION APP USING STREAMLIT](https://medium.com/@aminuoluwarotimi/crafting-an-interactive-telco-churn-prediction-app-with-streamlit-b672b6738d80)|
-|                          |                                                                                                                                                                                                                                            |        |
+
 
 ## Model Training and Saving ⏳
 
