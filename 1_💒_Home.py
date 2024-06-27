@@ -18,7 +18,7 @@ def background():
         
         st.write('\n\n')
         st.caption("""
-                For more information about me, checkout my!
+                For more information about me, checkout my
                 :red[[GitHub](https://github.com/bamzyyyy/Telco-Customer-Churn-Prediction-APP), [LinkdIn](https://www.linkedin.com/in/aminudesmond/), [Medium](https://medium.com/@aminuoluwarotimi/crafting-an-interactive-telco-churn-prediction-app-with-streamlit-b672b6738d80)]'
                 """)
         
