@@ -12,14 +12,28 @@ st.set_page_config(
 
 def background():
     st.header(":gray-background[Welcome to :rainbow[Telco Customer Churn Prediction App]]")
-    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.caption('My First Machine Learning App 🎉')
+        
+        st.write('\n\n')
+        st.caption("""
+                For more information about me, checkout my!
+                :red[[GitHub](https://github.com/bamzyyyy/Telco-Customer-Churn-Prediction-APP), [LinkdIn](https://www.linkedin.com/in/aminudesmond/), [Medium](https://medium.com/@aminuoluwarotimi/crafting-an-interactive-telco-churn-prediction-app-with-streamlit-b672b6738d80)]')
+                """)
+        
     with col2:
         st.image('resources/brainchart.webp', width=200)
     with col3:
-        pass
+        st.caption("""##### Contact Me 📧""")
+        st.caption(""" 
+                - For Help with this app
+                - For Collaboration on a different project
+                - For feedback and Enquiry
+                email me Aminuoluwarotimi@gmail.com
+                """)
+        
+        
     with st.container():
         col1, col2 = st.columns(2)
         with col1:
@@ -41,19 +55,11 @@ def background():
                     st.caption('KPI - these visualizations helps us answer some specific questions, especially in relation to the target variable, in this case :red[Churn]. This help understand how other variables affect :red[Churn]')
                 with st.expander(":violet[**Predict Page**] -"):
                     st.caption('The predict page takes responses based on following variables :orange[gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges], then you can select which model you prefer to run your prediction ')
-                with st.expander(':violet[**History page**]'):
+                with st.expander(':violet[**History page**] -'):
                     st.caption('This page keeps the records of all predictions made by this app, these data will be valuable to determine if our models needs improvement, as well as understand which model is predicting more accurately')
+                with st.expander(':violet[**Bulk Predict Page**] -'):
+                    st.caption('Upload data with the same columns and data types similar to the original dataset after clicking the predict button, you will get the prediction valuse for each row')
                 
-                st.write("""#### Contact Me 📧""")
-                st.caption(""" 
-                        - For Help with this app
-                        - For Collaboration on a different project
-                        - For feedback and Enquiry
-                        
-                        email me via Aminuoluwarotimi@gmail.com
-                        """)
-                st.caption('For more information about me, checkout my!')
-                st.write(':red[[GitHub](https://github.com/bamzyyyy/Telco-Customer-Churn-Prediction-APP), [LinkdIn](https://www.linkedin.com/in/aminudesmond/), [Medium](https://medium.com/@aminuoluwarotimi/crafting-an-interactive-telco-churn-prediction-app-with-streamlit-b672b6738d80)]')
                 
         with col2:                    
             st.write('#### :rainbow[ Telco Churn Overview]')
@@ -124,6 +130,7 @@ def background():
 
 7.  The average number of churn for customers that have **Yes** values for **seniorCitizen** is greater than or equal to those with **No** values.
                 """)
+ 
         
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
