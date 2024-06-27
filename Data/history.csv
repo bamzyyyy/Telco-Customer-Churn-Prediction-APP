@@ -77,3 +77,4 @@ Female,No,No,No,5,No,No,DSL,No,No,No,No,No,No,One year,No,Mailed check,20.0,50.0
 Male,No,No,No,5,Yes,Yes,DSL,No,No,No,No,No,No,One year,No,Mailed check,20.0,50.0,No,0.8956016,XGBoost
 Male,No,No,No,5,Yes,Yes,DSL,No,No,No,No,No,No,One year,No,Mailed check,20.0,50.0,No,0.8758742350041813,Gradient Boosting
 Male,Yes,Yes,Yes,7,Yes,Yes,DSL,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,100.0,1000.0,No,0.7408452206974547,Category Boosting
+Male,Yes,Yes,Yes,10,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,100.0,999.97,No,0.6871004,XGBoost
