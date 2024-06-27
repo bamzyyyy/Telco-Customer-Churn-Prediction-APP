@@ -31,7 +31,7 @@ local_css("style.css")
 
 def display_historic_predictions():
     st.subheader(":violet[Displaying historic predictions]")
-    csv_path = './data/history.csv'
+    csv_path = './Data/history.csv'
     csv_exists = os.path.isfile(csv_path)
 
     if csv_exists:

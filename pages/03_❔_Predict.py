@@ -170,7 +170,7 @@ def display_form():
             st.selectbox('Does Telco provide Tech Support', options =['Yes', 'No'], key='TechSupport')
             st.selectbox('Does Telco provide Streaming TV', options =['Yes', 'No'], key='StreamingTV')
             st.selectbox('Does Telco provide Streaming Movies', options =['Yes', 'No'], key='StreamingMovies')
-        st.form_submit_button('Submit', on_click=make_prediction, kwargs=dict(pipeline=pipeline, encoder=encoder)) #st.form_submit_button('Predict', on_click=make_prediction, kwargs=dict(pipeline=pipeline, encoder=encoder)) 
+        st.form_submit_button('Predict', on_click=make_prediction, kwargs=dict(pipeline=pipeline, encoder=encoder)) #st.form_submit_button('Predict', on_click=make_prediction, kwargs=dict(pipeline=pipeline, encoder=encoder)) 
 
 
 if st.session_state['authentication_status']:    
